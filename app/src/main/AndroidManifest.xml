@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puputaca.IslamyatApp">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <application
+        android:name="com.puputaca.IslamyatApp.AppController"
+        android:icon="@drawable/ic_kabaa"
+        android:roundIcon="@drawable/ic_kabaa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name="com.puputaca.IslamyatApp.EverDayTasks" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.waktusholat"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.puputaca.IslamyatApp.zikirAdp" />
+        <activity android:name="com.puputaca.IslamyatApp.zikir" />
+
+        <activity
+            android:name="com.puputaca.IslamyatApp.kisahnabi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.kisahnabi_adapter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.stories"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.puputaca.IslamyatApp.quraan_adpter" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.qibla"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.puputaca.IslamyatApp.quran" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.tasbih"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.Mainpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.puputaca.IslamyatApp.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name="com.puputaca.IslamyatApp.FetchAddressIntentService" />
+
+        <receiver
+            android:name=".PrayerAlarmReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

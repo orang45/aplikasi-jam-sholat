@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/refreshLayout"
+    android:layout_height="match_parent"
+    android:background="@color/color4"
+    android:orientation="vertical"
+    tools:context=".tasbih">
+
+    <LinearLayout
+        android:id="@+id/clickplus1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="0"
+            android:textAllCaps="true"
+            android:textColor="@color/color1"
+            android:textSize="200sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tekan di mana saja pada layar untuk bertasbih"
+            android:textAllCaps="true"
+            android:textColor="@color/color1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tarik layar ke bawah untuk mengatur ulang tasbih"
+            android:textAllCaps="true"
+            android:textColor="@color/color1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--<Button
+            android:id="@+id/butreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/homebutton"
+            android:gravity="center"
+            android:text="\t\tإعَادَة تَعْيِين\t\t"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/color1"
+            android:textSize="25sp"
+            android:textStyle="normal|bold"/>!-->
+
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
