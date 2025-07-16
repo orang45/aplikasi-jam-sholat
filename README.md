@@ -38,7 +38,7 @@ Mata Kuliah : Pemrograman Aplikasi Mobile
 # License
 MIT License
 
-Copyright (c) 2025 Dwi Gifa Sefani Putri
+Copyright (c) 2025 Dwi Gifa Sefani Putri & Layra Amarsha
 
 
 
