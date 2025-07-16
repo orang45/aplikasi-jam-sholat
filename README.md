@@ -1,3 +1,12 @@
+## Anggota Kelompok
+Nama : Dwi Gifa Sefani Putri 
+NIM  : 23.01.53.0005
+
+Nama : Layra Amarsha
+NIM  : 23.01.53.0007
+
+Mata Kuliah : Pemrograman Aplikasi Mobile
+
 # Islamyat App - تطبيق إسلاميات
 ### It is an Islamic Android application that includes many sections that are important for every Muslim in his daily life.
 # Programming Languages and IDEs Used
@@ -18,16 +27,6 @@
 **It's a boot screen contain app's name, logo and developer logo and it lasts for two seconds and then disappears and takes us to home page.**
 ### 2-Home Page
 **The main page of the application and it contains the buttons to move to the rest of the application parts and it also contains an info button in the action bar and this contains the ways to contact with the developer.**
-### 3- App Parts
-**The application contains many parts and they are:**
-- **Hijri daily date.**
-- **The Holy Quran.**
-- **Rosary.**
-- **Prophetic tradition.**
-- **Qibla prayer.**
-- **Duas and Remembrances.**
-- **Stories and miracles.**
-- **Daily tasks of a Muslim.**
 
 # Contact With Developer
 **you can contact me via :**
